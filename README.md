@@ -56,20 +56,20 @@ Here, we provide the pretrained networks and transferred depth networks ([Monode
 
 Backbone Networks:
 
-| Model | Architecture | Resolution | use KITTI | use CityScapes | use DrivingVideos_small | use DrivingVideos_big | Link |
-| ----- | ------------ | ---------- | --------- | -------------- | ----------------------- | --------------------- | ---- |
-| kcd   | ResNet 18    | 640x192    | Yes       | Yes            | Yes                     | No                    | ---- |
-| kc    | ResNet 18    | 640x192    | Yes       | Yes            | No                      | No                    | ---- |
-| d     | ResNet 18    | 640x192    | No        | No             | No                      | Yes                   | ---- |
-| kcd_hd| ResNet 50    | 1024x320   | Yes       | Yes            | Yes                     | No                    | ---- |
+| Model | Layer Num. | Resolution | KITTI | CityScapes | DrivingVideos_small | DrivingVideos_big | Link |
+| ----- | ---------- | ---------- | ----- | ---------- | ------------------- | ----------------- | ---- |
+| kcd   | 18         | 640x192    | Yes   | Yes        | Yes                 | No                | ---- |
+| kc    | 18         | 640x192    | Yes   | Yes        | No                  | No                | ---- |
+| d     | 18         | 640x192    | No    | No         | No                  | Yes               | ---- |
+| kcd_hd| 50         | 1024x320   | Yes   | Yes        | Yes                 | No                | ---- |
 
 
 Transferred Networks:
 
-| Backbone Model | Resolution | Training Mode | Abs Rel | Sq Rel | RMSE | RMSE log | delta < 1.25 | delta < 1.25^2 | delta < 1.25^3 | Link |
-| -------------- | ---------- | ------------- | ------- | ------ | ---- | -------- | ------------ | -------------- | -------------- | ---- |
-| kcd_hd         | 1024x320   | MS            | 0.093   | 0.704  | 4.367| 0.183    | 0.896        | 0.964          | 0.982          | ---- |
-| kcd_hd         | 640x320    | MS            | 0.099   | 0.757  | 4.547| 0.187    | 0.888        | 0.961          | 0.981          | ---- |
-| kcd            | 640x320    | MS            | 0.105   | 0.804  | 4.693| 0.193    | 0.874        | 0.958          | 0.980          | ---- |
-|   d            | 640x320    | M             | 0.112   | 0.820  | 4.707| 0.189    | 0.879        | 0.961          | 0.982          | ---- |
-|   d            | 640x320    | S             | 0.105   | 0.816  | 4.820| 0.204    | 0.869        | 0.952          | 0.976          | ---- |
+| Backbone| Training Mode | Abs Rel | Sq Rel | RMSE | RMSE log | delta < 1.25 | Link |
+| ------- | ------------- | ------- | ------ | ---- | -------- | ------------ | ---- |
+| kcd_hd  | MS            | 0.093   | 0.704  | 4.367| 0.183    | 0.896        | ---- |
+| kcd_hd  | MS            | 0.099   | 0.757  | 4.547| 0.187    | 0.888        | ---- |
+| kcd     | MS            | 0.105   | 0.804  | 4.693| 0.193    | 0.874        | ---- |
+|   d     | M             | 0.112   | 0.820  | 4.707| 0.189    | 0.879        | ---- |
+|   d     | S             | 0.105   | 0.816  | 4.820| 0.204    | 0.869        | ---- |
