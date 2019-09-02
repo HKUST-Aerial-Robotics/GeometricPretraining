@@ -40,9 +40,9 @@ The KITTI-trained network tested on CityScapes:
 
 <table align='center'>
 <tr>
-<td><img src='fig/cs0.png' width='320' height='300'/></td>
-<td><img src='fig/cs1.png' width='320' height='300'/></td>
-<td><img src='fig/cs2.png' width='320' height='300'/></td>
+<td><img src='fig/cs0.png' width='320' height='280'/></td>
+<td><img src='fig/cs1.png' width='320' height='280'/></td>
+<td><img src='fig/cs2.png' width='320' height='280'/></td>
 </tr>
 </table>
 
@@ -53,7 +53,7 @@ There are countless of images on the internet. In this project, we build the pre
 A tipical sample from DrivingVideos is a 3-frame sequential image with no calibration informatiom:
 
 <p align="center">
-<img src="fig/drivevideo.jpg" alt="input_output" width = "1066" height = "200">
+<img src="fig/drivevideo.jpg" alt="input_output" width = "1066" height = "160">
 </p>
 
 ## The pretrained networks and transferred depth networks
