@@ -46,6 +46,10 @@ The KITTI-trained network tested on CityScapes:
 </tr>
 </table>
 
+The KITTI-trained network tested on CityScapes:
+
+[![Watch the video](https://img.youtube.com/vi/i-KlfY4oGOM/hqdefault.jpg)](https://youtu.be/i-KlfY4oGOM)
+
 ## The proposed dataset DrivingVideos
 
 There are countless of images on the internet. In this project, we build the pretrain dataset, DrivingVideos, using videos from the internet. Due to the current size of the pretrain dataset, we mixed the pretraining dataset using KITTI, CityScapes, and DrivingVideos. We are still enlarging the dataset. In the future, we will use only DrivingVideos for the pretraining as experiments show that this leads to the best transferred performance. For more details please check the paper.
