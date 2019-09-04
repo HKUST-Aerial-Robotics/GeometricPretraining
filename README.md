@@ -46,7 +46,7 @@ The KITTI-trained network tested on CityScapes:
 </tr>
 </table>
 
-The KITTI-trained network tested on CityScapes:
+The KITTI-trained network tested on YoutubeVideo:
 
 [![Watch the video](https://img.youtube.com/vi/i-KlfY4oGOM/hqdefault.jpg)](https://youtu.be/i-KlfY4oGOM)
 
