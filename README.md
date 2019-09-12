@@ -48,7 +48,8 @@ The KITTI-trained network tested on CityScapes:
 
 The KITTI-trained network tested on YoutubeVideo:
 
-[![Watch the video](https://img.youtube.com/vi/i-KlfY4oGOM/hqdefault.jpg)](https://youtu.be/i-KlfY4oGOM)
+[![Watch the video](https://img.youtube.com/vi/seSjNF6EMyE/hqdefault.jpg)](https://youtu.be/seSjNF6EMyE)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/52kT5FDyk1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## The proposed dataset DrivingVideos
 
