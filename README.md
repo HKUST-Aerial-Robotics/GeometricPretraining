@@ -24,7 +24,7 @@ The proposed method uses a conditional encoder-decoder network to reconstruct th
 
 After the pretrain, the transferred network show better accuracy, generalization ability, and few-shot learning.
 
-The KITTI-trained network tested on KITTI dataset:
+* The KITTI-trained network tested on KITTI dataset:
 
 GeoPt is geometric pretrained backbone. Click each photo for full resolution.
 
@@ -36,7 +36,7 @@ GeoPt is geometric pretrained backbone. Click each photo for full resolution.
 </tr>
 </table>
 
-The KITTI-trained network tested on CityScapes:
+* The KITTI-trained network tested on CityScapes:
 
 <table align='center'>
 <tr>
@@ -46,10 +46,7 @@ The KITTI-trained network tested on CityScapes:
 </tr>
 </table>
 
-The KITTI-trained network tested on YoutubeVideo:
-
-[![Watch the video](https://img.youtube.com/vi/seSjNF6EMyE/hqdefault.jpg)](https://youtu.be/seSjNF6EMyE)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/52kT5FDyk1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* The KITTI-trained network tested on YouTube videos: [Video1](https://youtu.be/seSjNF6EMyE) and [Video2](https://youtu.be/52kT5FDyk1M).
 
 ## The proposed dataset DrivingVideos
 
