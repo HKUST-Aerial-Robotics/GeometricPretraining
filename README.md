@@ -47,7 +47,11 @@ GeoPt is geometric pretrained backbone. Click each photo for full resolution.
 </table>
 
 * The KITTI-trained network tested on YouTube videos: [Video1](https://youtu.be/seSjNF6EMyE) and [Video2](https://youtu.be/52kT5FDyk1M).
-
+<p align="center">
+<a href="https://youtu.be/seSjNF6EMyE" target="_blank"><img src="https://img.youtube.com/vi/seSjNF6EMyE/default.jpg
+" 
+alt="video" width="432" height="316" border="10" /></a>
+</p>
 ## The proposed dataset DrivingVideos
 
 There are countless of images on the internet. In this project, we build the pretrain dataset, DrivingVideos, using videos from the internet. Due to the current size of the pretrain dataset, we mixed the pretraining dataset using KITTI, CityScapes, and DrivingVideos. We are still enlarging the dataset. In the future, we will use only DrivingVideos for the pretraining as experiments show that this leads to the best transferred performance. For more details please check the paper.
