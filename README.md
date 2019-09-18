@@ -48,11 +48,9 @@ GeoPt is geometric pretrained backbone. Click each photo for full resolution.
 
 * The KITTI-trained network tested on YouTube videos: [Video1](https://youtu.be/seSjNF6EMyE) and [Video2](https://youtu.be/52kT5FDyk1M).
 <p align="center">
-<a href="https://youtu.be/wlobHEpPXDU" target="_blank"><img src="https://img.youtube.com/vi/wlobHEpPXDU/mqdefault.jpg" 
+<a href="https://youtu.be/wlobHEpPXDU" target="_blank"><img src="https://img.youtube.com/vi/wlobHEpPXDU/hqdefault.jpg" 
 alt="video" width="432" height="316" border="10" /></a>
-</p>
-<p align="center">
-<a href="https://youtu.be/5AKuyMUk4w8" target="_blank"><img src="https://img.youtube.com/vi/5AKuyMUk4w8/mqdefault.jpg" 
+<a href="https://youtu.be/5AKuyMUk4w8" target="_blank"><img src="https://img.youtube.com/vi/5AKuyMUk4w8/hqdefault.jpg" 
 alt="video" width="432" height="316" border="10" /></a>
 </p>
 
