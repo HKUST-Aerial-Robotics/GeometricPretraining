@@ -14,6 +14,12 @@ This project page contains:
 
 All components will be open source once the paper is accepted.
 
+## News
+
+2019-11-02: We pretrained encoder networks using the new dataset and achieves new state-of-the-art results. These pretrained methods will be released shortly.
+
+2019-11-02: We built a new dataset using methods described in the paper that contains only Youtube wild frames. The dataset contrains 151k image pairs for training and 16k images for testing. We are willing to release the extracted frames as a open-source dataset for the community. However, due to the Youtube license, we are afride that the dataset cannot be released without the creators' approvement. We are now contacting the creators.
+
 ## The proposed method
 
 The proposed method uses a conditional encoder-decoder network to reconstruct the optical flow between two images. With a narrow bottleneck, the encoder network is forced to learn motion-invariant structure information. After the pretraining, the encoder can be transferred to depth estimation using existing methods (e.g. [Monodepth2](https://github.com/nianticlabs/monodepth2)). The system is illustrated in the following figure.
@@ -70,12 +76,13 @@ Here, we provide the pretrained networks and transferred depth networks ([Monode
 
 Backbone Networks:
 
-| Model | Layer Num. | Resolution | KITTI | CityScapes | DrivingVideos_small | DrivingVideos_big | Link |
-| ----- | ---------- | ---------- | ----- | ---------- | ------------------- | ----------------- | ---- |
-| kcd   | 18         | 640x192    | Yes   | Yes        | Yes                 | No                | ---- |
-| kc    | 18         | 640x192    | Yes   | Yes        | No                  | No                | ---- |
-| d     | 18         | 640x192    | No    | No         | No                  | Yes               | ---- |
-| kcd_hd| 50         | 1024x320   | Yes   | Yes        | Yes                 | No                | ---- |
+| Model | Layer Num. | Resolution | KITTI | CityScapes | DrivingVideos_small | DrivingVideos_big | Youtube New | Link |
+| ----- | ---------- | ---------- | ----- | ---------- | ------------------- | ----------------- | ----------- | ---- |
+| kcd   | 18         | 640x192    | Yes   | Yes        | Yes                 | No                | No          | ---- |
+| kc    | 18         | 640x192    | Yes   | Yes        | No                  | No                | No          | ---- |
+| d     | 18         | 640x192    | No    | No         | No                  | Yes               | No          | ---- |
+| kcd_hd| 50         | 1024x320   | Yes   | Yes        | Yes                 | No                | No          | ---- |
+| new_youtube | 18         | 640x192    | No    | No         | No                  | No                | Yes         | ---- |
 
 Transferred Networks (evaluation using the code from Monodepth2):
 
