@@ -82,7 +82,8 @@ Backbone Networks:
 | kc    | 18         | 640x192    | Yes   | Yes        | No                  | No                | No          | ---- |
 | d     | 18         | 640x192    | No    | No         | No                  | Yes               | No          | ---- |
 | kcd_hd| 50         | 1024x320   | Yes   | Yes        | Yes                 | No                | No          | ---- |
-| new_youtube | 18         | 640x192    | No    | No         | No                  | No                | Yes         | ---- |
+| youtube18 | 18         | 640x192    | No    | No         | No                  | No                | Yes         | ---- |
+| youtube50 | 50         | 1024x320   | No    | No         | No                  | No                | Yes         | ---- |
 
 Transferred Networks (evaluation using the code from Monodepth2):
 
@@ -93,3 +94,8 @@ Transferred Networks (evaluation using the code from Monodepth2):
 | kcd     | MS (640x192)  | 0.105   | 0.804  | 4.693| 0.193    | 0.874        | ---- |
 |   d     | M  (640x192)  | 0.112   | 0.820  | 4.707| 0.189    | 0.879        | ---- |
 |   d     | S  (640x192)  | 0.105   | 0.816  | 4.820| 0.204    | 0.869        | ---- |
+|youtube18| S  (640x192)  | 0.105   | 0.840  | 4.785| 0.202    | 0.873        | ---- |
+|youtube18| MS (640x192)  | 0.103   | 0.819  | 4.668| 0.190    | 0.881        | ---- |
+|youtube18| M  (640x192)  | 0.111   | 0.879  | 4.735| 0.188    | 0.883        | ---- |
+|youtube50| S  (1024x320) | 0.097   | 0.735  | 4.548| 0.194    | 0.886        | ---- |
+|youtube50| MS (1024x320) | 0.094   | 0.707  | 4.335| 0.182    | 0.897        | ---- |
