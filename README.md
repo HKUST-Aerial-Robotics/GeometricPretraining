@@ -15,6 +15,7 @@ This project page contains:
 All components will be open source once the paper is accepted.
 
 ## News
+2020-06-22: The open-source procedure is delayed by the unexpected COV-19 situation. We will gradually release models in the following week.
 
 2019-11-02: We pretrained encoder networks using the new dataset and achieves new state-of-the-art results. These pretrained methods will be released shortly.
 
