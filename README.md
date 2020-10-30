@@ -1,4 +1,4 @@
-# GeometricPritraining
+# GeometricPretraining
 
 This is the project page of the paper **"Geometric Pretraining for Monocular Depth Estimation''**.
 
